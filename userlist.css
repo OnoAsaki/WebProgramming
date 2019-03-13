@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:  'Open Sans',sans-serif;
+}
+
+header{
+	background: #ff8ec6;
+	display: flex;
+	padding: 10px;
+}
+.headerleft{
+	color: #fff;
+	margin-right: auto;
+}
+
+.headerright{
+	display: flex;
+}
+.headerright > p{
+	margin: auto 16px;
+}
+
+.headerright p:first-of-type{
+	color: #fff;
+}
+
+.headerright input {
+	margin-right: auto;
+}
