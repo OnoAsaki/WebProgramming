@@ -12,7 +12,7 @@
 			<div class="headerleft">
 				<h2>User Management</h2>
 			</div>
-			
+
 			<div class="headerright">
 				<p>GUEST</p>
 				<p><input type="submit" value="Sign out"></p>
@@ -24,17 +24,21 @@
 		<p><input type="submit" value="sign up"></p>
 
 		<form class="search-container">
-			<div class="left"><p>Login ID</p></div>
-			<div class="right"><p><input type="loginid" placeholder="ログインID"></p></div>
-			<div class="left"><p>User Name</p></div>
-			<div class="right"><p><input type="username" placeholder="ユーザー名"></p></div>
-			<div class="left"><p>Birthday</p></div>
-			<div class="right">
+			<div class="loginid">
+				<div class="title"><p>Login ID</p></div>
+				<div class="parallel"><p><input type="loginid" placeholder="ログインID"></p></div>
+			</div>
+			<div class="username">
+					<div class="title"><p>User Name</p></div>
+					<div class="parallel"><p><input type="username" placeholder="ユーザー名"></p></div>
+			</div>
+			<div class="birthday">
+				<div class="title"><p>Birthday</p></div>
 				<p><input type="date" class="date"></p>
 				<p>～</p>
 				<p><input type="date" class="date"></p>
-				<p><input type="submit" value="search"></p>
 			</div>
+			<p><input type="submit" value="search"></p>
 		</form>
 
 	</div>
